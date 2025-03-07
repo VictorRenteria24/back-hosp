@@ -5,9 +5,6 @@ const PORT = process.env.PORT || 3000;
 const sequelize = require('./config/database');
 const User = require('./models/User');
 
-const express = require('express');
-const app = express();
-
 app.use('/api/peticiones', require('./routes/peticion'));
 app.use('/api/insumos', require('./routes/insumo'));
 
