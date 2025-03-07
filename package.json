@@ -13,6 +13,8 @@
     "bcryptjs": "^3.0.2",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.13.0",
+    "pdfkit": "^0.16.0",
     "pg": "^8.13.3",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.6"
