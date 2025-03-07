@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 6000;
 
-const sequelize = require('./config/Database');
+const sequelize = require('./config/database');
 const User = require('./models/User');
 
 app.use('/api/peticiones', require('./routes/peticion'));
