@@ -3,8 +3,8 @@ const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize(
   process.env.railway, // Nombre de la BD
-  process.env.victor24,     // Usuario
-  process.env.Merlin24$, // Contraseña
+  process.env.root,     // Usuario
+  process.env.QEisbHUGFlkPcgUAAZiAuYHTWaiIIbWK, // Contraseña
   {
     host: process.env.mysql.railway.internal, // Host de Railway
     dialect: 'mysql',
