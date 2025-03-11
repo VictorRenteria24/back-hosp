@@ -6,7 +6,7 @@ const sequelize = new Sequelize(
   process.env.root,     // Usuario
   process.env.QEisbHUGFlkPcgUAAZiAuYHTWaiIIbWK, // Contraseña
   {
-    host: process.env.mysql.railway.internal, // Host de Railway
+    host: process.env.MYSQL_HOST, // Host de Railway
     dialect: 'mysql',
     port: process.env.MYSQL_PORT || 3306,
     logging: false
