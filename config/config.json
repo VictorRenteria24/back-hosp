@@ -3,14 +3,14 @@
     "username": "root",
     "password": "",
     "database": "hospital",
-    "host": "localhost",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
     "password": "QEisbHUGFlkPcgUAAZiAuYHTWaiIIbWK",
     "database": "railway",
-    "host": "mysql.railway.internal",
+    "host": "mysql://root:QEisbHUGFlkPcgUAAZiAuYHTWaiIIbWK@mysql.railway.internal:3306/railway",
     "dialect": "mysql"
   }
 }
