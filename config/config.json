@@ -8,7 +8,7 @@
   },
   "production": {
     "username": "root",
-    "password": "",
+    "password": "QEisbHUGFlkPcgUAAZiAuYHTWaiIIbWK",
     "database": "hospital",
     "host": "mysql.railway.internal",
     "dialect": "mysql"
